@@ -1,0 +1,36 @@
+header,
+nav,
+main,
+footer {
+  max-width: 75rem;
+  margin: auto;
+}
+
+nav {
+  button {
+    display: none;
+  }
+  ul,
+  ul.open {
+    display: flex;
+    border: none;
+    li {
+      border: none;
+    }
+  }
+}
+
+.allCards {
+  section {
+    flex-basis: calc(33.333% - ($gutter * 3) / 3);
+
+    img {
+      margin: auto;
+    }
+  }
+}
+
+footer div.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
