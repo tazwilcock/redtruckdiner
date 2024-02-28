@@ -163,7 +163,7 @@ footer {
   } // END MAIN FOOTER ELEMENT
 
   // START FOOTER CONTECT SECTION
-  section.contact {
+  div.contact {
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
@@ -184,7 +184,7 @@ footer {
   } // END FOOTER CONTACT SECTION
 
   // START FOOTER SOCIAL ICONS SECTION
-  section.social {
+  div.social {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
@@ -201,7 +201,7 @@ footer {
   } // END FOOTER SOCIAL ICONS SECTION
 
   // START FOOTER ADDRESS SECTION
-  section.location {
+  div.location {
     font-size: 1rem;
     margin-bottom: 1rem;
     text-align: center;

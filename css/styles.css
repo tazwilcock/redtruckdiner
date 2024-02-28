@@ -461,30 +461,30 @@ footer {
 footer section {
   padding: 5px;
 }
-footer section.contact {
+footer div.contact {
   margin-bottom: 1rem;
   display: flex;
   justify-content: center;
 }
-footer section.contact p {
+footer div.contact p {
   font-size: 1rem;
   margin: 0.4rem;
 }
-footer section.contact p a {
+footer div.contact p a {
   color: white;
 }
-footer section.contact ion-icon {
+footer div.contact ion-icon {
   color: lightgray;
   font-size: 1.4rem;
   padding-right: 5px;
   margin-bottom: -3px;
 }
-footer section.social {
+footer div.social {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
-footer section.social a {
+footer div.social a {
   display: block;
   border: 1px solid #b5ffe1;
   border-radius: 5px;
@@ -494,7 +494,7 @@ footer section.social a {
   color: #b5ffe1;
   padding-top: 15px;
 }
-footer section.location {
+footer div.location {
   font-size: 1rem;
   margin-bottom: 1rem;
   text-align: center;
